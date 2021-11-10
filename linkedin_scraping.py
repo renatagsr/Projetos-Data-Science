@@ -30,11 +30,11 @@ sleep(3)
 # preencher usuario
 # usuario_input = driver.find_element_by_css_selector('input#username')
 usuario_input = driver.find_element_by_name('session_key')
-usuario_input.send_keys('renata.gabriela98@outlook.com')
+usuario_input.send_keys('your_email@email.com')
 
 # preencher senha
 senha_input = driver.find_element_by_name('session_password')
-senha_input.send_keys('R.g.s.r.98')
+senha_input.send_keys('your_password')
 
 # clicar para logar
 # driver.find_element_by_css_selector("button.btn__primary--large").click()
